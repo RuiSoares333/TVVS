@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="66a23b43-eb11-4d6c-8e1c-2a3710e4e213" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="JavaAutoRunManager">
+    <enabled-run-configurations>
+      <run-configuration type="JUnit" name="TestControllerLevel.testCheckPhysicalCollisionsYHandlesJumpingCollision" />
+    </enabled-run-configurations>
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2pGgZGw6ZFn7tCXE8Sdg09UUCGF" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "JUnit.All in Mario.executor": "Coverage",
+    "JUnit.LoaderLevelBuilderTest.executor": "Coverage",
+    "JUnit.LoaderLevelBuilderTest.testCreateGameObjects.executor": "Run",
+    "JUnit.LoaderLevelBuilderTest.testRandomSurprise.executor": "Run",
+    "JUnit.LoaderLevelBuilderTest.testReadLines.executor": "Debug",
+    "JUnit.TestBuildingBlock.executor": "Run",
+    "JUnit.TestControllerLevel.checkCollisions_callsCollisionMethodsForMarioAndObjects.executor": "Debug",
+    "JUnit.TestControllerLevel.checkPhysicalCollisionsX_handlesLeftCollisionWithObject.executor": "Run",
+    "JUnit.TestControllerLevel.executor": "Coverage",
+    "JUnit.TestControllerLevel.stepsControllersAndChecksCollisions.executor": "Run",
+    "JUnit.TestControllerLevel.testCheckCollisionsInvokesCollisionMethods.executor": "Run",
+    "JUnit.TestControllerLevel.testCheckCollisionsXHandlesObjectCollisionRight.executor": "Run",
+    "JUnit.TestControllerLevel.testCheckCollisionsXHandlesWallCollision.executor": "Run",
+    "JUnit.TestControllerLevel.testCheckCollisionsYDetectsBlockBelow.executor": "Run",
+    "JUnit.TestControllerLevel.testCheckCollisionsYHandlesFalling.executor": "Run",
+    "JUnit.TestControllerLevel.testCheckPhysicalCollisionsYHandlesJumpingCollision.executor": "Debug",
+    "JUnit.TestControllerLevel.testCollisionWhileMovingLeft.executor": "Debug",
+    "JUnit.TestControllerLevel.testNoCollisionWhileMovingRight.executor": "Run",
+    "JUnit.TestControllerLevel.testStepCallsSubControllers.executor": "Run",
+    "JUnit.TestControllerLevel.testStepHandlesMarioJump.executor": "Run",
+    "JUnit.TestGoalBlock.executor": "Run",
+    "JUnit.TestInteractableBlock.executor": "Run",
+    "JUnit.TestInteractableBlock.testSurpriseBlock.executor": "Run",
+    "JUnit.TestLevel.executor": "Coverage",
+    "JUnit.TestLevel.testGetEnemies.executor": "Run",
+    "JUnit.TestLevel.testGetSurpriseBlocks.executor": "Run",
+    "JUnit.TestLevel.testSetDestroyableBlocks.executor": "Debug",
+    "JUnit.TestLevel.testSetFireBalls.executor": "Run",
+    "JUnit.TestLevelBuilder.executor": "Debug",
+    "JUnit.TestLevelBuilder.testCreateLevel.executor": "Run",
+    "JUnit.TestLoaderLevelBuilder.executor": "Debug",
+    "JUnit.TestLoaderLevelBuilder.testCreateGameObjects.executor": "Debug",
+    "JUnit.TestLoaderLevelBuilder.testGetWidth.executor": "Debug",
+    "JUnit.TestLoaderLevelBuilder.testPipeCharacterHeightMapping.executor": "Run",
+    "JUnit.TestMushroom.executor": "Coverage",
+    "JUnit.TestMushroom.testMushroom.executor": "Run",
+    "JUnit.TestMushroom.testMushroom1UP.executor": "Run",
+    "JUnit.TestMushroom.testMushroomSuper.executor": "Run",
+    "JUnit.TestSurprise.executor": "Coverage",
+    "JUnit.TestSurprise.testCoin.executor": "Run",
+    "JUnit.TestSurprise.testFlower.executor": "Run",
+    "JUnit.TestSurprise.testStar.executor": "Run",
+    "JUnit.TestSurprise.testSurprise.executor": "Run",
+    "Maven.Mario [org.pitest:pitest-maven:1.17.0:mutationCoverage].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/ASUS/OneDrive - Universidade do Porto/Ambiente de Trabalho/Rui/FACULDADE/FEUP/MESW/TVVS/Project/project-super-mario/src/test/java/org/grupogjl/model/game/elements",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ASUS\OneDrive - Universidade do Porto\Ambiente de Trabalho\Rui\FACULDADE\FEUP\MESW\TVVS\Project\project-super-mario\src\test\java\org\grupogjl\model\game\elements" />
+      <recent name="C:\Users\ASUS\OneDrive - Universidade do Porto\Ambiente de Trabalho\Rui\FACULDADE\FEUP\MESW\TVVS\Project\project-super-mario\src\test\java\org\grupogjl" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.grupogjl.controller.game" />
+      <recent name="org.grupogjl.model.game.elements.blocks" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="21" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="org.grupogjl.Main" />
+      <module name="Mario" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.grupogjl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestControllerLevel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mario" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.grupogjl.controller.game.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.grupogjl.controller.game" />
+      <option name="MAIN_CLASS_NAME" value="org.grupogjl.controller.game.TestControllerLevel" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestControllerLevel.stepsControllersAndChecksCollisions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mario" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.grupogjl.controller.game.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.grupogjl.controller.game" />
+      <option name="MAIN_CLASS_NAME" value="org.grupogjl.controller.game.TestControllerLevel" />
+      <option name="METHOD_NAME" value="stepsControllersAndChecksCollisions" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="project-super-mario" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="project-super-mario" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.TestControllerLevel" />
+      <item itemvalue="JUnit.TestControllerLevel.stepsControllersAndChecksCollisions" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.TestControllerLevel.stepsControllersAndChecksCollisions" />
+        <item itemvalue="JUnit.TestControllerLevel" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.21565.193" />
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-IU-243.21565.193" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="66a23b43-eb11-4d6c-8e1c-2a3710e4e213" name="Changes" comment="" />
+      <created>1732397885451</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1732397885451</updated>
+      <workItem from="1732397892098" duration="17783000" />
+      <workItem from="1732450708359" duration="21021000" />
+      <workItem from="1732707173881" duration="599000" />
+      <workItem from="1732877098623" duration="3790000" />
+      <workItem from="1733312569695" duration="3978000" />
+      <workItem from="1734734620656" duration="112000" />
+      <workItem from="1735052296531" duration="2221000" />
+      <workItem from="1735055798329" duration="8304000" />
+      <workItem from="1735129665990" duration="8177000" />
+      <workItem from="1735157619683" duration="4720000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/grupogjl/model/game/elements/surprises/TestMushroom.java</url>
+          <line>88</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/grupogjl/model/game/elements/level/TestLevel.java</url>
+          <line>104</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/grupogjl/model/game/elements/level/TestLoaderLevelBuilder.java</url>
+          <line>79</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/project_super_mario$TestInteractableBlock_testSurpriseBlock.ic" NAME="TestInteractableBlock.testSurpriseBlock Coverage Results" MODIFIED="1732409457422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>org.grupogjl.model.game.elements.blocks.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/project_super_mario$All_in_Mario.ic" NAME="All in Mario Coverage Results" MODIFIED="1735065115364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/project_super_mario$TestLevel_testSetDestroyableBlocks.ic" NAME="TestLevel.testSetDestroyableBlocks Coverage Results" MODIFIED="1735052940227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>org.grupogjl.model.game.elements.level.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/project_super_mario$TestMushroom_testMushroom.ic" NAME="TestMushroom.testMushroom Coverage Results" MODIFIED="1732471152724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>org.grupogjl.model.game.elements.surprises.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/project_super_mario$TestControllerLevel.ic" NAME="TestControllerLevel Coverage Results" MODIFIED="1735161535666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>org.grupogjl.controller.game.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/project_super_mario$TestSurprise_testFlower.ic" NAME="TestSurprise.testFlower Coverage Results" MODIFIED="1732462672589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>org.grupogjl.model.game.elements.surprises.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/project_super_mario$TestMushroom.ic" NAME="TestMushroom Coverage Results" MODIFIED="1732471634807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>org.grupogjl.model.game.elements.surprises.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/project_super_mario$TestLoaderLevelBuilder.ic" NAME="TestLoaderLevelBuilder Coverage Results" MODIFIED="1735056759107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>org.grupogjl.model.game.elements.level.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/project_super_mario$TestSurprise.ic" NAME="TestSurprise Coverage Results" MODIFIED="1732465322074" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>org.grupogjl.model.game.elements.surprises.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/project_super_mario$LoaderLevelBuilderTest.ic" NAME="LoaderLevelBuilderTest Coverage Results" MODIFIED="1733314171361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>org.grupogjl.model.game.elements.level.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/project_super_mario$TestLevel.ic" NAME="TestLevel Coverage Results" MODIFIED="1735056688028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>org.grupogjl.model.game.elements.level.*</FILTER>
+    </SUITE>
+  </component>
+</project>
