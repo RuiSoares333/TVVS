@@ -1,0 +1,137 @@
+
+
+
+<!DOCTYPE html>
+<html id="htmlId">
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"> 
+  <title>Coverage Report > ControllerSurpriseBlocks</title>
+  <style type="text/css">
+    @import "../../css/coverage.css";
+    @import "../../css/idea.min.css";
+  </style>
+  <script type="text/javascript" src="../../js/highlight.min.js"></script>
+  <script type="text/javascript" src="../../js/highlightjs-line-numbers.min.js"></script>
+</head>
+
+<body>
+<div class="content">
+<div class="breadCrumbs">
+Current scope:     <a href="../../index.html">all classes</a>
+    <span class="separator">|</span>
+    <a href="../index.html">org.grupogjl.controller.game.blocks</a>
+</div>
+
+<h1>Coverage Summary for Class: ControllerSurpriseBlocks (org.grupogjl.controller.game.blocks)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Class, %
+</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Branch, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">ControllerSurpriseBlocks</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/2)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/8)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/7)
+  </span>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<pre>
+<code class="sourceCode" id="sourceCode">&nbsp;package org.grupogjl.controller.game.blocks;
+&nbsp;
+&nbsp;import org.grupogjl.gui.GeneralGui;
+&nbsp;import org.grupogjl.model.game.elements.blocks.SurpriseBlock;
+&nbsp;import org.grupogjl.model.game.elements.generalobjects.GameObject;
+&nbsp;import org.grupogjl.model.game.elements.level.Level;
+&nbsp;
+&nbsp;import java.util.List;
+&nbsp;
+<b class="nc">&nbsp;public class ControllerSurpriseBlocks {</b>
+&nbsp;    public void step(Level level, GeneralGui.ACTION action, long time) {
+<b class="nc">&nbsp;        List&lt;GameObject&gt; objects = level.getObjects();</b>
+<b class="nc">&nbsp;        List&lt;SurpriseBlock&gt; surpriseBlocks = level.getSurpriseBlocks();</b>
+<b class="nc">&nbsp;        for (SurpriseBlock surpriseBlock : surpriseBlocks) {</b>
+<b class="nc">&nbsp;            if (surpriseBlock.isUsed() &amp;&amp; !objects.contains(surpriseBlock.getSurprise()) &amp;&amp; surpriseBlock.getSurprise().isActivated()) {</b>
+<b class="nc">&nbsp;                objects.add(surpriseBlock.getSurprise());</b>
+&nbsp;            }
+&nbsp;        }
+<b class="nc">&nbsp;        level.setObjects(objects);</b>
+&nbsp;    }
+&nbsp;}
+</code>
+</pre>
+</div>
+
+<script type="text/javascript">
+(function() {
+    var msie = false, msie9 = false;
+    /*@cc_on
+      msie = true;
+      @if (@_jscript_version >= 9)
+        msie9 = true;
+      @end
+    @*/
+
+    if (!msie || msie && msie9) {
+      hljs.highlightAll()
+      hljs.initLineNumbersOnLoad();
+    }
+})();
+</script>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2024-12-26 15:13</div>
+</div>
+</body>
+</html>

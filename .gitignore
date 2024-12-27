@@ -1,0 +1,3 @@
+target/*
+.idea/*
+surefire-3.5.2/*
