@@ -8,9 +8,78 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66a23b43-eb11-4d6c-8e1c-2a3710e4e213" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/grupogjl/controller/game/TestControllerLevel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/grupogjl/controller/game/TestControllerLevel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/grupogjl/.empty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/grupogjl/controller/.empty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/grupogjl/controller/TestControllerGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/grupogjl/controller/TestControllerGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/grupogjl/controller/game/.empty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/grupogjl/model/game/elements/.empty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pit-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pit-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.audio/WavAudioPlayer.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.audio/WavAudioPlayer.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.commands/ExitGameCommand.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.commands/ExitGameCommand.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.commands/ExitToMenuCommand.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.commands/ExitToMenuCommand.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.commands/GameOverCommand.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.commands/GameOverCommand.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.commands/InstructionsCommand.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.commands/InstructionsCommand.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.commands/PauseCommand.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.commands/PauseCommand.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.commands/ResumeCommand.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.commands/ResumeCommand.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.commands/StartGameCommand.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.commands/StartGameCommand.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.commands/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.commands/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.controller.game.blocks/ControllerBlocks.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.controller.game.blocks/ControllerBlocks.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.controller.game.blocks/ControllerDestroyableBlocks.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.controller.game.blocks/ControllerDestroyableBlocks.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.controller.game.blocks/ControllerSurpriseBlocks.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.controller.game.blocks/ControllerSurpriseBlocks.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.controller.game.blocks/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.controller.game.blocks/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.controller.game.physicalobjects/ControllerEnemy.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.controller.game.physicalobjects/ControllerEnemy.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.controller.game.physicalobjects/ControllerFireBall.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.controller.game.physicalobjects/ControllerFireBall.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.controller.game.physicalobjects/ControllerMario.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.controller.game.physicalobjects/ControllerMario.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.controller.game.physicalobjects/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.controller.game.physicalobjects/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.controller.game.surprises/ControllerCoin.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.controller.game.surprises/ControllerCoin.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.controller.game.surprises/ControllerSurprises.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.controller.game.surprises/ControllerSurprises.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.controller.game.surprises/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.controller.game.surprises/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.controller.game/ControllerLevel.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.controller.game/ControllerLevel.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.controller.game/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.controller.game/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.controller/ControllerGame.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.controller/ControllerGame.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.controller/ControllerMenu.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.controller/ControllerMenu.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.controller/ControllerPause.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.controller/ControllerPause.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.controller/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.controller/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.gui/LanternaGui.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.gui/LanternaGui.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.gui/SpriteBuilder.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.gui/SpriteBuilder.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.model.game.elements.blocks/DestroyableBlock.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.model.game.elements.blocks/DestroyableBlock.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.model.game.elements.blocks/GoalBlock.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.model.game.elements.blocks/GoalBlock.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.model.game.elements.blocks/Pipe.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.model.game.elements.blocks/Pipe.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.model.game.elements.blocks/SurpriseBlock.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.model.game.elements.blocks/SurpriseBlock.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.model.game.elements.blocks/UnbreakableBlock.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.model.game.elements.blocks/UnbreakableBlock.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.model.game.elements.buttons/Button.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.model.game.elements.buttons/Button.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.model.game.elements.camera/Camera.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.model.game.elements.camera/Camera.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.model.game.elements.enemies/Enemy.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.model.game.elements.enemies/Enemy.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.model.game.elements.enemies/Goomba.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.model.game.elements.enemies/Goomba.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.model.game.elements.enemies/KoopaTroopa.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.model.game.elements.enemies/KoopaTroopa.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.model.game.elements.generalobjects/PhysicalObject.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.model.game.elements.generalobjects/PhysicalObject.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.model.game.elements.generalobjects/StaticObject.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.model.game.elements.generalobjects/StaticObject.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.model.game.elements.generalobjects/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.model.game.elements.generalobjects/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.model.game.elements.level/Level.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.model.game.elements.level/Level.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.model.game.elements.level/LevelBuilder.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.model.game.elements.level/LevelBuilder.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.model.game.elements.level/LoaderLevelBuilder.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.model.game.elements.level/LoaderLevelBuilder.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.model.game.elements.menu/MenuPauseModel.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.model.game.elements.menu/MenuPauseModel.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.model.game.elements.props/FireBall.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.model.game.elements.props/FireBall.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.model.game.elements.props/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.model.game.elements.props/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.model.game.elements.surprises/Coin.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.model.game.elements.surprises/Coin.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.model.game.elements.surprises/Flower.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.model.game.elements.surprises/Flower.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.model.game.elements.surprises/Mushroom.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.model.game.elements.surprises/Mushroom.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.model.game.elements.surprises/Mushroom1UP.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.model.game.elements.surprises/Mushroom1UP.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.model.game.elements.surprises/MushroomSuper.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.model.game.elements.surprises/MushroomSuper.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.model.game.elements.surprises/Star.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.model.game.elements.surprises/Star.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.model.game.elements.surprises/Surprise.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.model.game.elements.surprises/Surprise.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.model.game.elements/Mario.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.model.game.elements/Mario.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.state/State.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.state/State.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.state/StateGame.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.state/StateGame.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.state/StateMenu.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.state/StateMenu.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.state/StatePause.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.state/StatePause.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.viewer/ViewerGame.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.viewer/ViewerGame.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.viewer/ViewerMenu.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.viewer/ViewerMenu.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.viewer/ViewerPause.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pit-reports/org.grupogjl.viewer/ViewerPause.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pit-reports/org.grupogjl/Game.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pit-reports/org.grupogjl/Game.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pit-reports/org.grupogjl/Main.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pit-reports/org.grupogjl/Main.java.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,10 +138,24 @@
     "JUnit.LoaderLevelBuilderTest.testRandomSurprise.executor": "Run",
     "JUnit.LoaderLevelBuilderTest.testReadLines.executor": "Debug",
     "JUnit.TestBuildingBlock.executor": "Run",
+    "JUnit.TestCommands.executeSetsGameStateToGame.executor": "Run",
+    "JUnit.TestCommands.executeSetsGameStateToResumed.executor": "Run",
+    "JUnit.TestCommands.executor": "Run",
+    "JUnit.TestControllerBlocks.executor": "Coverage",
+    "JUnit.TestControllerCoin.executor": "Coverage",
+    "JUnit.TestControllerDestroyableBlocks.executor": "Coverage",
+    "JUnit.TestControllerDestroyableBlocks.stepDoesNotRemoveBlocksWithPositiveStrength.executor": "Coverage",
+    "JUnit.TestControllerDestroyableBlocks.stepHandlesNullLevel.executor": "Run",
+    "JUnit.TestControllerDestroyableBlocks.stepRemovesBlocksWithZeroOrLessStrength.executor": "Run",
+    "JUnit.TestControllerEnemy.executor": "Run",
+    "JUnit.TestControllerEnemy.stepUpdatesStatusAndMovesEnemies.executor": "Run",
+    "JUnit.TestControllerEnemy.updateStatusRemovesEnemiesWithZeroOrLessLives.executor": "Run",
+    "JUnit.TestControllerFireBall.executor": "Coverage",
     "JUnit.TestControllerGame.controllerLevelStepCalledWhenMarioHasLivesAndActionIsNotQuitOrSelect.executor": "Run",
     "JUnit.TestControllerGame.executor": "Run",
     "JUnit.TestControllerGame.exitToMenuCommandExecutedWhenMarioHasNoLivesAndActionIsSelect.executor": "Run",
     "JUnit.TestControllerGame.gameOverCommandExecutedWhenMarioHasNoLives.executor": "Run",
+    "JUnit.TestControllerGame.notNullGets.executor": "Run",
     "JUnit.TestControllerGame.pauseCommandExecutedWhenActionIsQuit.executor": "Run",
     "JUnit.TestControllerLevel.checkCollisions_callsCollisionMethodsForMarioAndObjects.executor": "Debug",
     "JUnit.TestControllerLevel.checkPhysicalCollisionsX_handlesLeftCollisionWithObject.executor": "Run",
@@ -108,10 +191,32 @@
     "JUnit.TestControllerLevel.testStepCallsSubControllers.executor": "Run",
     "JUnit.TestControllerLevel.testStepHandlesMarioJump.executor": "Run",
     "JUnit.TestControllerLevel.testUpdateControllers.executor": "Run",
+    "JUnit.TestControllerMario.executor": "Coverage",
+    "JUnit.TestControllerMario.moveMarioSlowsDownWhenActionIsNoneAndFalling.executor": "Run",
+    "JUnit.TestControllerMario.moveMarioSlowsDownWhenActionIsNoneAndJumping.executor": "Run",
+    "JUnit.TestControllerMario.moveMarioTransportsWhenActionIsDown.executor": "Run",
+    "JUnit.TestControllerMario.stepHandlesNullCamera.executor": "Run",
+    "JUnit.TestControllerMario.stepHandlesNullMario.executor": "Run",
+    "JUnit.TestControllerMario.stepHandlesNullObjects.executor": "Run",
+    "JUnit.TestControllerMario.stepUpdatesMarioStatusAndMovesMario.executor": "Run",
+    "JUnit.TestControllerMario.transportMarioHandlesNonPipeObjects.executor": "Run",
+    "JUnit.TestControllerMario.transportMarioMovesMarioToPipeConnectionWhenAbovePipe.executor": "Debug",
+    "JUnit.TestControllerMario.updateMarioStatusDecreasesInvincibilityTimeWhenNonZero.executor": "Run",
+    "JUnit.TestControllerMario.updateMarioStatusDisablesInvincibilityWhenTimeIsZero.executor": "Run",
+    "JUnit.TestControllerMario.updateMarioStatusDisablesInvincibilityWhenTimeIsZeroButHitNotCooldown.executor": "Run",
+    "JUnit.TestControllerMario.updateMarioStatusIncreasesLivesWhenCoinsReachTen.executor": "Run",
+    "JUnit.TestControllerMario.updateMarioStatusResetsMarioWhenBelowLevel.executor": "Run",
+    "JUnit.TestControllerMario.updateMarioStatusSetInvincibility.executor": "Run",
+    "JUnit.TestControllerMario.updateMarioStatusUpdatesMarioLocation.executor": "Run",
     "JUnit.TestControllerMenu.executor": "Coverage",
     "JUnit.TestControllerMenu.stepDoesNotChangeSelectionWhenOptionIsSelectedAndActionIsNotSelect.executor": "Run",
-    "JUnit.TestControllerPause.executor": "Run",
+    "JUnit.TestControllerPause.executor": "Coverage",
     "JUnit.TestControllerPause.stepMovesToNextPositionWhenActionIsDown.executor": "Run",
+    "JUnit.TestControllerSurpriseBlocks.executor": "Coverage",
+    "JUnit.TestControllerSurpriseBlocks.stepSurpriseBlockIsNotUsed.executor": "Run",
+    "JUnit.TestControllerSurprises.executor": "Coverage",
+    "JUnit.TestControllerSurprises.stepUpdatesSurpriseStatusAndCallsControllerCoinStep.executor": "Run",
+    "JUnit.TestControllerSurprises.updateStatusHandlesNullSurprisesList.executor": "Run",
     "JUnit.TestGoalBlock.executor": "Run",
     "JUnit.TestInteractableBlock.executor": "Run",
     "JUnit.TestInteractableBlock.testSurpriseBlock.executor": "Run",
@@ -126,6 +231,25 @@
     "JUnit.TestLoaderLevelBuilder.testCreateGameObjects.executor": "Debug",
     "JUnit.TestLoaderLevelBuilder.testGetWidth.executor": "Debug",
     "JUnit.TestLoaderLevelBuilder.testPipeCharacterHeightMapping.executor": "Run",
+    "JUnit.TestMario.buildingBlockValidButNoValidDirection.executor": "Coverage",
+    "JUnit.TestMario.executor": "Coverage",
+    "JUnit.TestMario.gameObjectNotSurpriseNotEnemyNotBuildingBlock.executor": "Coverage",
+    "JUnit.TestMario.getImageReturnsHitMarioWhenNotBigOrFireAndNotInvencibleAndInCooldownAndRandomTrue.executor": "Run",
+    "JUnit.TestMario.getImageReturnsMarioStarBigWhenBigAndInvencibleAndInCooldownAndRandomTrue.executor": "Coverage",
+    "JUnit.TestMario.getImageReturnsMarioStarBigWhenBigAndInvencibleAndNotInCooldownAndRandomTrue.executor": "Run",
+    "JUnit.TestMario.getImageReturnsMarioStarBigWhenFireAndInvencibleAndInCooldownAndRandomTrue.executor": "Run",
+    "JUnit.TestMario.handleCollisionWithBuildingBlockSetsMarioState.executor": "Run",
+    "JUnit.TestMario.handleCollisionWithEnemyWhenBigOrFireSetsMarioToSmallAndInvencible.executor": "Run",
+    "JUnit.TestMario.handleCollisionWithEnemyWhenMarioInvincibleAndHitCooldown.executor": "Coverage",
+    "JUnit.TestMario.handleCollisionWithEnemyWhenMarioNotInvincibleAndHitCooldown.executor": "Coverage",
+    "JUnit.TestMario.handleCollisionWithEnemyWhenNotBigOrFireResetsMario.executor": "Run",
+    "JUnit.TestMario.handleCollisionWithGoalBlockNotifiesGoal.executor": "Run",
+    "JUnit.TestMario.jumpToBuildingBlockButNotInteractable.executor": "Coverage",
+    "JUnit.TestMario.notifyStateCallsObserverButNoMatchFound.executor": "Run",
+    "JUnit.TestMario.nullReturn.executor": "Debug",
+    "JUnit.TestMario.resetIsStateBigTrue.executor": "Run",
+    "JUnit.TestMario.resetIsStateFireTrue.executor": "Run",
+    "JUnit.TestMario.resetNormal.executor": "Run",
     "JUnit.TestMushroom.executor": "Coverage",
     "JUnit.TestMushroom.testMushroom.executor": "Run",
     "JUnit.TestMushroom.testMushroom1UP.executor": "Run",
@@ -135,6 +259,8 @@
     "JUnit.TestSurprise.testFlower.executor": "Run",
     "JUnit.TestSurprise.testStar.executor": "Run",
     "JUnit.TestSurprise.testSurprise.executor": "Run",
+    "JUnit.TestWavAudioPlayer.executor": "Coverage",
+    "JUnit.TestWavAudioPlayer.testPlaySoundWithValidFile.executor": "Run",
     "JUnit.java in Mario.executor": "Coverage",
     "Maven.Mario [org.apache.maven.plugins:maven-surefire-plugin:3.5.2:test].executor": "Run",
     "Maven.Mario [org.jacoco:jacoco-maven-plugin:0.8.12:check].executor": "Run",
@@ -151,7 +277,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/ASUS/OneDrive - Universidade do Porto/Ambiente de Trabalho/Rui/FACULDADE/FEUP/MESW/TVVS/Project/project-super-mario/src/test/java/org/grupogjl/model/game/elements",
+    "last_opened_file_path": "C:/Users/ASUS/OneDrive - Universidade do Porto/Ambiente de Trabalho/Rui/FACULDADE/FEUP/MESW/TVVS/Project/project-super-mario/src/test",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -163,6 +289,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ASUS\OneDrive - Universidade do Porto\Ambiente de Trabalho\Rui\FACULDADE\FEUP\MESW\TVVS\Project\project-super-mario\src\test" />
       <recent name="C:\Users\ASUS\OneDrive - Universidade do Porto\Ambiente de Trabalho\Rui\FACULDADE\FEUP\MESW\TVVS\Project\project-super-mario\src\test\java\org\grupogjl\model\game\elements" />
       <recent name="C:\Users\ASUS\OneDrive - Universidade do Porto\Ambiente de Trabalho\Rui\FACULDADE\FEUP\MESW\TVVS\Project\project-super-mario\src\test\java\org\grupogjl" />
     </key>
@@ -177,73 +304,82 @@
       <recent name="org.grupogjl.model.game.elements.blocks" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.java in Mario">
-    <configuration name="TestControllerMenu" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TestMario">
+    <configuration name="TestMario" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Mario" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.grupogjl.controller.*" />
+          <option name="PATTERN" value="org.grupogjl.model.game.elements.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.grupogjl.controller" />
-      <option name="MAIN_CLASS_NAME" value="org.grupogjl.controller.TestControllerMenu" />
+      <option name="PACKAGE_NAME" value="org.grupogjl.model.game.elements" />
+      <option name="MAIN_CLASS_NAME" value="org.grupogjl.model.game.elements.TestMario" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestControllerMenu.stepDoesNotChangeSelectionWhenOptionIsSelectedAndActionIsNotSelect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestMario.getImageReturnsHitMarioWhenNotBigOrFireAndNotInvencibleAndInCooldownAndRandomTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Mario" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.grupogjl.controller.*" />
+          <option name="PATTERN" value="org.grupogjl.model.game.elements.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.grupogjl.controller" />
-      <option name="MAIN_CLASS_NAME" value="org.grupogjl.controller.TestControllerMenu" />
-      <option name="METHOD_NAME" value="stepDoesNotChangeSelectionWhenOptionIsSelectedAndActionIsNotSelect" />
+      <option name="PACKAGE_NAME" value="org.grupogjl.model.game.elements" />
+      <option name="MAIN_CLASS_NAME" value="org.grupogjl.model.game.elements.TestMario" />
+      <option name="METHOD_NAME" value="getImageReturnsHitMarioWhenNotBigOrFireAndNotInvencibleAndInCooldownAndRandomTrue" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestControllerPause" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestMario.getImageReturnsMarioStarBigWhenBigAndInvencibleAndInCooldownAndRandomTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Mario" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.grupogjl.controller.*" />
+          <option name="PATTERN" value="org.grupogjl.model.game.elements.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.grupogjl.controller" />
-      <option name="MAIN_CLASS_NAME" value="org.grupogjl.controller.TestControllerPause" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestControllerPause.stepMovesToNextPositionWhenActionIsDown" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Mario" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.grupogjl.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.grupogjl.controller" />
-      <option name="MAIN_CLASS_NAME" value="org.grupogjl.controller.TestControllerPause" />
-      <option name="METHOD_NAME" value="stepMovesToNextPositionWhenActionIsDown" />
+      <option name="PACKAGE_NAME" value="org.grupogjl.model.game.elements" />
+      <option name="MAIN_CLASS_NAME" value="org.grupogjl.model.game.elements.TestMario" />
+      <option name="METHOD_NAME" value="getImageReturnsMarioStarBigWhenBigAndInvencibleAndInCooldownAndRandomTrue" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="java in Mario" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestMario.getImageReturnsMarioStarBigWhenFireAndInvencibleAndInCooldownAndRandomTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Mario" />
-      <option name="TEST_OBJECT" value="directory" />
-      <dir value="$PROJECT_DIR$/src/test/java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.grupogjl.model.game.elements.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.grupogjl.model.game.elements" />
+      <option name="MAIN_CLASS_NAME" value="org.grupogjl.model.game.elements.TestMario" />
+      <option name="METHOD_NAME" value="getImageReturnsMarioStarBigWhenFireAndInvencibleAndInCooldownAndRandomTrue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMario.nullReturn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mario" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.grupogjl.model.game.elements.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.grupogjl.model.game.elements" />
+      <option name="MAIN_CLASS_NAME" value="org.grupogjl.model.game.elements.TestMario" />
+      <option name="METHOD_NAME" value="nullReturn" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -260,19 +396,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.TestControllerMenu" />
-      <item itemvalue="JUnit.TestControllerMenu.stepDoesNotChangeSelectionWhenOptionIsSelectedAndActionIsNotSelect" />
-      <item itemvalue="JUnit.TestControllerPause" />
-      <item itemvalue="JUnit.TestControllerPause.stepMovesToNextPositionWhenActionIsDown" />
-      <item itemvalue="JUnit.java in Mario" />
+      <item itemvalue="JUnit.TestMario" />
+      <item itemvalue="JUnit.TestMario.getImageReturnsHitMarioWhenNotBigOrFireAndNotInvencibleAndInCooldownAndRandomTrue" />
+      <item itemvalue="JUnit.TestMario.getImageReturnsMarioStarBigWhenBigAndInvencibleAndInCooldownAndRandomTrue" />
+      <item itemvalue="JUnit.TestMario.getImageReturnsMarioStarBigWhenFireAndInvencibleAndInCooldownAndRandomTrue" />
+      <item itemvalue="JUnit.TestMario.nullReturn" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.java in Mario" />
-        <item itemvalue="JUnit.TestControllerPause" />
-        <item itemvalue="JUnit.TestControllerPause.stepMovesToNextPositionWhenActionIsDown" />
-        <item itemvalue="JUnit.TestControllerMenu" />
-        <item itemvalue="JUnit.TestControllerMenu.stepDoesNotChangeSelectionWhenOptionIsSelectedAndActionIsNotSelect" />
+        <item itemvalue="JUnit.TestMario" />
+        <item itemvalue="JUnit.TestMario.nullReturn" />
+        <item itemvalue="JUnit.TestMario.getImageReturnsHitMarioWhenNotBigOrFireAndNotInvencibleAndInCooldownAndRandomTrue" />
+        <item itemvalue="JUnit.TestMario.getImageReturnsMarioStarBigWhenFireAndInvencibleAndInCooldownAndRandomTrue" />
+        <item itemvalue="JUnit.TestMario.getImageReturnsMarioStarBigWhenBigAndInvencibleAndInCooldownAndRandomTrue" />
       </list>
     </recent_temporary>
   </component>
@@ -303,7 +439,7 @@
       <workItem from="1735129665990" duration="8177000" />
       <workItem from="1735157619683" duration="4720000" />
       <workItem from="1735222438889" duration="12922000" />
-      <workItem from="1735305149128" duration="20426000" />
+      <workItem from="1735305149128" duration="52245000" />
     </task>
     <servers />
   </component>
@@ -333,6 +469,51 @@
           <line>225</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/grupogjl/controller/game/physicalobjects/ControllerEnemy.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/grupogjl/controller/game/physicalobjects/ControllerEnemy.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/grupogjl/controller/game/physicalobjects/TestControllerMario.java</url>
+          <line>141</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/grupogjl/controller/game/physicalobjects/TestControllerMario.java</url>
+          <line>240</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/grupogjl/controller/game/physicalobjects/TestControllerMario.java</url>
+          <line>275</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/grupogjl/model/game/elements/TestMario.java</url>
+          <line>576</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/grupogjl/model/game/elements/Mario.java</url>
+          <line>190</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/grupogjl/model/game/elements/Mario.java</url>
+          <line>196</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/grupogjl/model/game/elements/Mario.java</url>
+          <line>203</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -340,11 +521,20 @@
     <SUITE FILE_PATH="coverage/project_super_mario$TestInteractableBlock_testSurpriseBlock.ic" NAME="TestInteractableBlock.testSurpriseBlock Coverage Results" MODIFIED="1732409457422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>org.grupogjl.model.game.elements.blocks.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/project_super_mario$TestControllerPause.ic" NAME="TestControllerPause Coverage Results" MODIFIED="1735335669090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>org.grupogjl.controller.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/project_super_mario$TestLevel_testSetDestroyableBlocks.ic" NAME="TestLevel.testSetDestroyableBlocks Coverage Results" MODIFIED="1735052940227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>org.grupogjl.model.game.elements.level.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/project_super_mario$TestControllerLevel_testCheckPhysicalCollisionsY_noCollisionResetsPosition.ic" NAME="TestControllerLevel.testCheckPhysicalCollisionsY_noCollisionResetsPosition Coverage Results" MODIFIED="1735233728709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>org.grupogjl.controller.game.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/project_super_mario$TestControllerDestroyableBlocks_stepDoesNotRemoveBlocksWithPositiveStrength.ic" NAME="TestControllerDestroyableBlocks.stepDoesNotRemoveBlocksWithPositiveStrength Coverage Results" MODIFIED="1735340794288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>org.grupogjl.controller.game.blocks.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/project_super_mario$TestControllerMario.ic" NAME="TestControllerMario Coverage Results" MODIFIED="1735350081900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>org.grupogjl.controller.game.physicalobjects.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/project_super_mario$TestMushroom_testMushroom.ic" NAME="TestMushroom.testMushroom Coverage Results" MODIFIED="1732471152724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>org.grupogjl.model.game.elements.surprises.*</FILTER>
@@ -352,30 +542,75 @@
     <SUITE FILE_PATH="coverage/project_super_mario$TestControllerLevel_testLeftBoundaryCollision.ic" NAME="TestControllerLevel.testLeftBoundaryCollision Coverage Results" MODIFIED="1735225272508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>org.grupogjl.controller.game.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/project_super_mario$TestControllerDestroyableBlocks.ic" NAME="TestControllerDestroyableBlocks Coverage Results" MODIFIED="1735341455456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>org.grupogjl.controller.game.blocks.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/project_super_mario$TestControllerLevel_testCollisionFromLeft.ic" NAME="TestControllerLevel.testCollisionFromLeft Coverage Results" MODIFIED="1735234150159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>org.grupogjl.controller.game.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/project_super_mario$TestControllerLevel_testCollisionFromRight.ic" NAME="TestControllerLevel.testCollisionFromRight Coverage Results" MODIFIED="1735234215775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>org.grupogjl.controller.game.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/project_super_mario$LoaderLevelBuilderTest.ic" NAME="LoaderLevelBuilderTest Coverage Results" MODIFIED="1733314171361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>org.grupogjl.model.game.elements.level.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/project_super_mario$TestSurprise.ic" NAME="TestSurprise Coverage Results" MODIFIED="1732465322074" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>org.grupogjl.model.game.elements.surprises.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/project_super_mario$LoaderLevelBuilderTest.ic" NAME="LoaderLevelBuilderTest Coverage Results" MODIFIED="1733314171361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
-      <FILTER>org.grupogjl.model.game.elements.level.*</FILTER>
+    <SUITE FILE_PATH="coverage/project_super_mario$TestMario_gameObjectNotSurpriseNotEnemyNotBuildingBlock.ic" NAME="TestMario.gameObjectNotSurpriseNotEnemyNotBuildingBlock Coverage Results" MODIFIED="1735402238030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>org.grupogjl.model.game.elements.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/project_super_mario$TestMario_getImageReturnsMarioStarBigWhenBigAndInvencibleAndInCooldownAndRandomTrue.ic" NAME="TestMario.getImageReturnsMarioStarBigWhenBigAndInvencibleAndInCooldownAndRandomTrue Coverage Results" MODIFIED="1735404914362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>org.grupogjl.model.game.elements.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/project_super_mario$TestControllerSurprises.ic" NAME="TestControllerSurprises Coverage Results" MODIFIED="1735351332529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>org.grupogjl.controller.game.surprises.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/project_super_mario$TestMario_handleCollisionWithEnemyWhenMarioNotInvincibleAndHitCooldown.ic" NAME="TestMario.handleCollisionWithEnemyWhenMarioNotInvincibleAndHitCooldown Coverage Results" MODIFIED="1735402051556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>org.grupogjl.model.game.elements.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/project_super_mario$TestControllerLevel.ic" NAME="TestControllerLevel Coverage Results" MODIFIED="1735237908459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>org.grupogjl.controller.game.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/project_super_mario$TestControllerLevel_testNoCollisionVerticalMisalignment.ic" NAME="TestControllerLevel.testNoCollisionVerticalMisalignment Coverage Results" MODIFIED="1735234296989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>org.grupogjl.controller.game.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/project_super_mario$TestCommands.ic" NAME="TestCommands Coverage Results" MODIFIED="1735355748233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>org.grupogjl.controller.commands.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/project_super_mario$TestMario.ic" NAME="TestMario Coverage Results" MODIFIED="1735405280943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>org.grupogjl.model.game.elements.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/project_super_mario$TestControllerCoin.ic" NAME="TestControllerCoin Coverage Results" MODIFIED="1735350478884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>org.grupogjl.controller.game.surprises.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/project_super_mario$TestWavAudioPlayer.ic" NAME="TestWavAudioPlayer Coverage Results" MODIFIED="1735354657736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>org.grupogjl.controller.audio.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/project_super_mario$TestControllerSurpriseBlocks.ic" NAME="TestControllerSurpriseBlocks Coverage Results" MODIFIED="1735342018818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>org.grupogjl.controller.game.blocks.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/project_super_mario$TestLevel.ic" NAME="TestLevel Coverage Results" MODIFIED="1735056688028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>org.grupogjl.model.game.elements.level.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/project_super_mario$TestMario_buildingBlockValidButNoValidDirection.ic" NAME="TestMario.buildingBlockValidButNoValidDirection Coverage Results" MODIFIED="1735402283817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>org.grupogjl.model.game.elements.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/project_super_mario$TestMario_getImageReturnsMarioStarBigWhenBigAndInvencibleAndNotInCooldownAndRandomTrue.ic" NAME="TestMario.getImageReturnsMarioStarBigWhenBigAndInvencibleAndNotInCooldownAndRandomTrue Coverage Results" MODIFIED="1735404458446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>org.grupogjl.model.game.elements.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/project_super_mario$All_in_Mario.ic" NAME="All in Mario Coverage Results" MODIFIED="1735305793212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
-    <SUITE FILE_PATH="coverage/project_super_mario$TestControllerLevel.ic" NAME="TestControllerLevel Coverage Results" MODIFIED="1735237908459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
-      <FILTER>org.grupogjl.controller.game.*</FILTER>
+    <SUITE FILE_PATH="coverage/project_super_mario$TestMario_handleCollisionWithEnemyWhenMarioInvincibleAndHitCooldown.ic" NAME="TestMario.handleCollisionWithEnemyWhenMarioInvincibleAndHitCooldown Coverage Results" MODIFIED="1735401568335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>org.grupogjl.model.game.elements.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/project_super_mario$TestSurprise_testFlower.ic" NAME="TestSurprise.testFlower Coverage Results" MODIFIED="1732462672589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>org.grupogjl.model.game.elements.surprises.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/project_super_mario$TestControllerLevel_testNoCollisionVerticalMisalignment.ic" NAME="TestControllerLevel.testNoCollisionVerticalMisalignment Coverage Results" MODIFIED="1735234296989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
-      <FILTER>org.grupogjl.controller.game.*</FILTER>
+    <SUITE FILE_PATH="coverage/project_super_mario$TestControllerBlocks.ic" NAME="TestControllerBlocks Coverage Results" MODIFIED="1735338982166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>org.grupogjl.controller.game.blocks.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/project_super_mario$TestControllerFireBall.ic" NAME="TestControllerFireBall Coverage Results" MODIFIED="1735344569993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>org.grupogjl.controller.game.physicalobjects.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/project_super_mario$TestMushroom.ic" NAME="TestMushroom Coverage Results" MODIFIED="1732471634807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>org.grupogjl.model.game.elements.surprises.*</FILTER>
@@ -395,6 +630,9 @@
     <SUITE FILE_PATH="coverage/project_super_mario$TestControllerLevel_testNoCollision.ic" NAME="TestControllerLevel.testNoCollision Coverage Results" MODIFIED="1735234259268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>org.grupogjl.controller.game.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/project_super_mario$java_in_Mario.ic" NAME="java in Mario Coverage Results" MODIFIED="1735331827219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/project_super_mario$java_in_Mario.ic" NAME="java in Mario Coverage Results" MODIFIED="1735357024150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/project_super_mario$TestMario_jumpToBuildingBlockButNotInteractable.ic" NAME="TestMario.jumpToBuildingBlockButNotInteractable Coverage Results" MODIFIED="1735402730710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>org.grupogjl.model.game.elements.*</FILTER>
+    </SUITE>
   </component>
 </project>

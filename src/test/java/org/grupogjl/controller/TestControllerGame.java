@@ -39,6 +39,14 @@ public class TestControllerGame {
     }
 
     @Test
+    void notNullGets() {
+        assert controllerGame.getControllerLevel() != null;
+        assert controllerGame.getGameOverCommand() != null;
+        assert controllerGame.getExitToMenuCommand() != null;
+        assert controllerGame.getPauseCommand() != null;
+    }
+
+    @Test
     void gameOverCommandExecutedWhenMarioHasNoLives() throws IOException {
         GameOverCommand gameOverCommand = mock(GameOverCommand.class);
 
