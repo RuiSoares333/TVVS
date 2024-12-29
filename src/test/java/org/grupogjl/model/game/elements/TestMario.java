@@ -573,7 +573,8 @@ public class TestMario {
 
         String image = mario.getImage();
         while(image != null){
-            assertNotEquals(null, image);
+            assertNotNull(image);
+            when(mario.isStateInvencible()).thenReturn(true).thenReturn(false);
             image = mario.getImage();
         }
         assertNull(image);
