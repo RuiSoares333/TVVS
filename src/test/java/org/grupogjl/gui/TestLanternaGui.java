@@ -1,20 +1,27 @@
 package org.grupogjl.gui;
 
 import com.googlecode.lanterna.TerminalPosition;
+import com.googlecode.lanterna.TerminalSize;
 import com.googlecode.lanterna.TextColor;
+import com.googlecode.lanterna.graphics.BasicTextImage;
 import com.googlecode.lanterna.graphics.TextGraphics;
 import com.googlecode.lanterna.input.KeyStroke;
 import com.googlecode.lanterna.input.KeyType;
 import com.googlecode.lanterna.screen.Screen;
 import com.googlecode.lanterna.terminal.Terminal;
+import com.googlecode.lanterna.terminal.swing.AWTTerminalFontConfiguration;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.IOException;
+import java.lang.reflect.Field;
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
+import java.net.URISyntaxException;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.*;
 
 public class TestLanternaGui {
@@ -37,6 +44,20 @@ public class TestLanternaGui {
         textGraphics = mock(TextGraphics.class);
         when(screen.newTextGraphics()).thenReturn(textGraphics);
         when(spriteBuilder.loadImage(anyString())).thenReturn(image);
+    }
+
+    @Test
+    void constructorInitializesScreenAndSpriteBuilder() throws IOException, FontFormatException, NoSuchFieldException, IllegalAccessException, URISyntaxException {
+        gui.setScreen(screen);
+        gui.setSpriteBuilder(spriteBuilder);
+
+        Field screenField = LanternaGui.class.getDeclaredField("screen");
+        Field spriteBuilderField = LanternaGui.class.getDeclaredField("spriteBuilder");
+        screenField.setAccessible(true);
+        spriteBuilderField.setAccessible(true);
+
+        assertNotNull(screenField.get(gui));
+        assertNotNull(spriteBuilderField.get(gui));
     }
 
     @Test
@@ -324,5 +345,79 @@ public class TestLanternaGui {
         gui.refresh();
 
         verify(screen).refresh();
+    }
+
+    @Test
+    public void testConstructorInitializesScreenAndSpriteBuilder() throws Exception {
+        assertNotNull(gui);
+        assertNotNull(getField(gui, "screen"));
+        assertNotNull(getField(gui, "spriteBuilder"));
+    }
+
+    @Test
+    public void testSetSpriteBuilder() {
+        SpriteBuilder mockSpriteBuilder = mock(SpriteBuilder.class);
+        gui.setSpriteBuilder(mockSpriteBuilder);
+        assertEquals(mockSpriteBuilder, getField(gui, "spriteBuilder"));
+    }
+
+    @Test
+    public void testSetScreen() {
+        Screen mockScreen = mock(Screen.class);
+        gui.setScreen(mockScreen);
+        assertEquals(mockScreen, getField(gui, "screen"));
+    }
+
+    @Test
+    public void testCreateScreen() throws Exception {
+        Terminal mockTerminal = mock(Terminal.class);
+        BasicTextImage mockTextImage = mock(BasicTextImage.class);
+        TerminalSize mockTerminalSize = mock(TerminalSize.class);
+
+        when(mockTerminalSize.getColumns()).thenReturn(420);
+        when(mockTerminalSize.getRows()).thenReturn(69);
+        when(mockTextImage.getSize()).thenReturn(mockTerminalSize);
+        when(mockTerminal.getTerminalSize()).thenReturn(mockTerminalSize);
+
+        Method createScreenMethod = LanternaGui.class.getDeclaredMethod("createScreen", Terminal.class);
+        createScreenMethod.setAccessible(true);
+
+        Screen screen = (Screen) createScreenMethod.invoke(gui, mockTerminal);
+
+        assertNotNull(screen);
+    }
+
+    @Test
+    public void testCreateTerminal() throws Exception {
+        AWTTerminalFontConfiguration mockFontConfig = mock(AWTTerminalFontConfiguration.class);
+
+        Method createTerminalMethod = LanternaGui.class.getDeclaredMethod("createTerminal", int.class, int.class, AWTTerminalFontConfiguration.class);
+        createTerminalMethod.setAccessible(true);
+
+        assertThrows(InvocationTargetException.class, () -> {
+            createTerminalMethod.invoke(gui, 80, 24, mockFontConfig);
+        });
+        assertNotNull(terminal);
+    }
+
+    @Test
+    public void testLoadSquareFont() throws Exception {
+        Method loadSquareFontMethod = LanternaGui.class.getDeclaredMethod("loadSquareFont");
+        loadSquareFontMethod.setAccessible(true);
+
+        AWTTerminalFontConfiguration fontConfig = (AWTTerminalFontConfiguration) loadSquareFontMethod.invoke(gui);
+
+        assertNotNull(fontConfig);
+    }
+
+    // Helper method to get private fields using reflection
+    private Object getField(Object object, String fieldName) {
+        try {
+            var field = object.getClass().getDeclaredField(fieldName);
+            field.setAccessible(true);
+            return field.get(object);
+        } catch (Exception e) {
+            throw new RuntimeException("Failed to access field: " + fieldName, e);
+        }
     }
 }

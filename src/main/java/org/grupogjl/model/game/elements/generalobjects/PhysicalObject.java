@@ -136,6 +136,7 @@ public abstract class PhysicalObject implements GameObject {
     }
     public abstract void handleWallColision(float leftCamLimit);
     public boolean collidesWith(GameObject object) {
+        boolean a = object instanceof PhysicalObject;
         if (object instanceof PhysicalObject) {
             return collidesWithPhysical((PhysicalObject) object, 0, 0);
         } else {
