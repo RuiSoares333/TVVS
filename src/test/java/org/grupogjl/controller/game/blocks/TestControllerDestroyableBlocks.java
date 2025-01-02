@@ -1,6 +1,7 @@
 package org.grupogjl.controller.game.blocks;
 
 import org.grupogjl.gui.GeneralGui;
+import org.grupogjl.model.game.elements.Mario;
 import org.grupogjl.model.game.elements.blocks.DestroyableBlock;
 import org.grupogjl.model.game.elements.level.Level;
 import org.junit.jupiter.api.BeforeEach;
@@ -65,4 +66,5 @@ public class TestControllerDestroyableBlocks {
 
         verify(level).setDestroyableBlocks(Collections.emptyList());
     }
+
 }

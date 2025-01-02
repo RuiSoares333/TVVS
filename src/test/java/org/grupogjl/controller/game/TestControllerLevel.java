@@ -434,4 +434,57 @@ public class TestControllerLevel {
 
         verify(mario).setX(startPosition);
     }
+
+    @Test
+    void testNeverSetFallingFalseWhenJumping() {
+        objects.add(block);
+        when(mario.isJumping()).thenReturn(true);
+
+        when(mario.getX()).thenReturn(10.0f);
+        when(mario.getWidth()).thenReturn(5f);
+        when(block.getX()).thenReturn(5f);
+        when(block.getWidth()).thenReturn(20f);
+
+        when(mario.getY()).thenReturn(5f);
+        when(block.getY()).thenReturn(6f);
+        when(block.getHeight()).thenReturn(1f);
+
+        controllerLevel.CheckPhysicalCollisionsY(mario, List.of(block));
+
+        verify(mario, never()).setFalling(false);
+    }
+
+    @Test
+    void testCollisionFromRightButMarioBelow() {
+        PhysicalObject enemy = mock(PhysicalObject.class);
+
+        when(mario.collidesWithPhysical(eq(enemy), anyFloat(), eq(-0.2f))).thenReturn(true);
+        when(enemy.getX()).thenReturn(2f); // Enemy to the left
+        when(mario.getX()).thenReturn(5f);
+        when(mario.getY()).thenReturn(0f);
+        when(enemy.getY()).thenReturn(4f);
+
+        controllerLevel.checkCollisions(mario, List.of(enemy), camera);
+
+        verify(mario, never()).handleCollision(enemy, 'R');
+    }
+
+    @Test
+    void testCollisionXWhenMarioInObjectListMovingRight() {
+        when(mario.getVx()).thenReturn(3f);
+
+        controllerLevel.checkCollisions(mario, List.of(mario), camera);
+
+        verify(mario, never()).setX(anyFloat());
+    }
+
+    @Test
+    void testCollisionXWhenMarioInObjectListMovingLeft() {
+        when(mario.getVx()).thenReturn(-3f);
+
+        controllerLevel.checkCollisions(mario, List.of(mario), camera);
+
+        verify(mario, never()).setX(anyFloat());
+    }
+
 }

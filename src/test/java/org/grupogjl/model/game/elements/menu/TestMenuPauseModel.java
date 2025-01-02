@@ -1,4 +1,4 @@
-package org.grupogjl.menu;
+package org.grupogjl.model.game.elements.menu;
 
 import org.grupogjl.Game;
 import org.grupogjl.commands.GameCommand;
